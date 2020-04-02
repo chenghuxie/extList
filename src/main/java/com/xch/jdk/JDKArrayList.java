@@ -1,5 +1,5 @@
 
-package com.xch.test;
+package com.xch.jdk;
 
 import java.util.AbstractList;
 import java.util.Arrays;
@@ -9,14 +9,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.RandomAccess;
 import java.util.Spliterator;
-import java.util.Vector;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
