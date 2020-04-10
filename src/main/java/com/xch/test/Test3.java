@@ -12,6 +12,7 @@ public class Test3 {
         list.add("a");
         list.add("b");
         list.add(1,"c");
+        list.remove("a");
         for (String s : list) {
             System.out.println(s);
         }
