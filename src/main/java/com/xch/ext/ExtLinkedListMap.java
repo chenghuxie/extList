@@ -32,7 +32,7 @@ public class ExtLinkedListMap<K,V> {
             tables[hash]=newList;
         }else{
             //存在hash冲突  判断hashCode是否相同
-            for (Entry<K, V> oldEntry : linkedList) {
+            for (Entry oldEntry : linkedList) {
                 if(oldEntry.key.equals(key)){
                     //说明Key相同进行value覆盖
                     oldEntry.value=value;
