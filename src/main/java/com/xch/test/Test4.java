@@ -15,6 +15,9 @@ public class Test4 {
         linkedList.add(1,"d");
         for (int i=0;i<linkedList.size();i++ ) {
             System.out.println(linkedList.get(i));
+
+
+
         }
     }
 }
